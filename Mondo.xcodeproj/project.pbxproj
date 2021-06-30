@@ -102,11 +102,11 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
+				OBJ_17 /* README.md */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_11 /* Tests */,
 				OBJ_14 /* Products */,
-				OBJ_17 /* README.md */,
 			);
 			name = "";
 			sourceTree = "<group>";
