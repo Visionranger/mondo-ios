@@ -29,6 +29,7 @@
 		503F70D4268CA99900E05AE2 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */; };
 		503F70D6268CA9F500E05AE2 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D5268CA9F500E05AE2 /* DateExtensions.swift */; };
 		503F70D8268CAA6900E05AE2 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D7268CAA6900E05AE2 /* BundleExtensions.swift */; };
+		50C1B70E268CB12300485202 /* UIScrollViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1B70D268CB12300485202 /* UIScrollViewExtensions.swift */; };
 		OBJ_23 /* ScreenProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ScreenProperties.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* MondoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* MondoTests.swift */; };
@@ -61,6 +62,7 @@
 		503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		503F70D5268CA9F500E05AE2 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		503F70D7268CAA6900E05AE2 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		50C1B70D268CB12300485202 /* UIScrollViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtensions.swift; sourceTree = "<group>"; };
 		"Mondo::Mondo::Product" /* Mondo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mondo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Mondo::MondoTests::Product" /* MondoTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = MondoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* ScreenProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenProperties.swift; sourceTree = "<group>"; };
@@ -115,7 +117,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_17 /* README.md */,
@@ -124,7 +126,6 @@
 				OBJ_11 /* Tests */,
 				OBJ_14 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -139,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_10 /* ScreenProperties.swift */,
+				50C1B70D268CB12300485202 /* UIScrollViewExtensions.swift */,
 				503F70C7268CA7B600E05AE2 /* UIViewControllerExtensions.swift */,
 				503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */,
 				503F70D5268CA9F500E05AE2 /* DateExtensions.swift */,
@@ -219,7 +221,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +242,7 @@
 				503F70CA268CA83900E05AE2 /* UIColorExtensions.swift in Sources */,
 				503F70D4268CA99900E05AE2 /* UIViewExtensions.swift in Sources */,
 				503F70C8268CA7B600E05AE2 /* UIViewControllerExtensions.swift in Sources */,
+				50C1B70E268CB12300485202 /* UIScrollViewExtensions.swift in Sources */,
 				503F70D0268CA91900E05AE2 /* ReuseIdentifiableExtensions.swift in Sources */,
 				OBJ_23 /* ScreenProperties.swift in Sources */,
 				503F70D8268CAA6900E05AE2 /* BundleExtensions.swift in Sources */,
