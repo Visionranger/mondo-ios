@@ -21,6 +21,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		503F70C8268CA7B600E05AE2 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70C7268CA7B600E05AE2 /* UIViewControllerExtensions.swift */; };
+		503F70CA268CA83900E05AE2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70C9268CA83900E05AE2 /* UIColorExtensions.swift */; };
+		503F70CC268CA86F00E05AE2 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70CB268CA86F00E05AE2 /* UIImageExtensions.swift */; };
+		503F70CE268CA8C800E05AE2 /* UISearchBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70CD268CA8C800E05AE2 /* UISearchBarExtensions.swift */; };
+		503F70D0268CA91900E05AE2 /* ReuseIdentifiableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70CF268CA91900E05AE2 /* ReuseIdentifiableExtensions.swift */; };
+		503F70D4268CA99900E05AE2 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */; };
+		503F70D6268CA9F500E05AE2 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D5268CA9F500E05AE2 /* DateExtensions.swift */; };
+		503F70D8268CAA6900E05AE2 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D7268CAA6900E05AE2 /* BundleExtensions.swift */; };
 		OBJ_23 /* ScreenProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ScreenProperties.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* MondoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* MondoTests.swift */; };
@@ -45,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		503F70C7268CA7B600E05AE2 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		503F70C9268CA83900E05AE2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		503F70CB268CA86F00E05AE2 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		503F70CD268CA8C800E05AE2 /* UISearchBarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBarExtensions.swift; sourceTree = "<group>"; };
+		503F70CF268CA91900E05AE2 /* ReuseIdentifiableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiableExtensions.swift; sourceTree = "<group>"; };
+		503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		503F70D5268CA9F500E05AE2 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		503F70D7268CAA6900E05AE2 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
 		"Mondo::Mondo::Product" /* Mondo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mondo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Mondo::MondoTests::Product" /* MondoTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = MondoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* ScreenProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenProperties.swift; sourceTree = "<group>"; };
@@ -122,8 +138,16 @@
 		OBJ_8 /* MondoPackage */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Mondo.h */,
 				OBJ_10 /* ScreenProperties.swift */,
+				503F70C7268CA7B600E05AE2 /* UIViewControllerExtensions.swift */,
+				503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */,
+				503F70D5268CA9F500E05AE2 /* DateExtensions.swift */,
+				503F70D7268CAA6900E05AE2 /* BundleExtensions.swift */,
+				503F70C9268CA83900E05AE2 /* UIColorExtensions.swift */,
+				503F70CB268CA86F00E05AE2 /* UIImageExtensions.swift */,
+				503F70CD268CA8C800E05AE2 /* UISearchBarExtensions.swift */,
+				503F70CF268CA91900E05AE2 /* ReuseIdentifiableExtensions.swift */,
+				OBJ_9 /* Mondo.h */,
 			);
 			name = MondoPackage;
 			path = Sources/MondoPackage;
@@ -213,7 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				503F70CA268CA83900E05AE2 /* UIColorExtensions.swift in Sources */,
+				503F70D4268CA99900E05AE2 /* UIViewExtensions.swift in Sources */,
+				503F70C8268CA7B600E05AE2 /* UIViewControllerExtensions.swift in Sources */,
+				503F70D0268CA91900E05AE2 /* ReuseIdentifiableExtensions.swift in Sources */,
 				OBJ_23 /* ScreenProperties.swift in Sources */,
+				503F70D8268CAA6900E05AE2 /* BundleExtensions.swift in Sources */,
+				503F70D6268CA9F500E05AE2 /* DateExtensions.swift in Sources */,
+				503F70CC268CA86F00E05AE2 /* UIImageExtensions.swift in Sources */,
+				503F70CE268CA8C800E05AE2 /* UISearchBarExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
