@@ -29,6 +29,7 @@
 		503F70D4268CA99900E05AE2 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */; };
 		503F70D6268CA9F500E05AE2 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D5268CA9F500E05AE2 /* DateExtensions.swift */; };
 		503F70D8268CAA6900E05AE2 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F70D7268CAA6900E05AE2 /* BundleExtensions.swift */; };
+		508C8218268F0E060047FAFB /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C8217268F0E060047FAFB /* FormValidation.swift */; };
 		50C1B70E268CB12300485202 /* UIScrollViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1B70D268CB12300485202 /* UIScrollViewExtensions.swift */; };
 		OBJ_23 /* ScreenProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ScreenProperties.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
@@ -62,6 +63,7 @@
 		503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		503F70D5268CA9F500E05AE2 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		503F70D7268CAA6900E05AE2 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		508C8217268F0E060047FAFB /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
 		50C1B70D268CB12300485202 /* UIScrollViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtensions.swift; sourceTree = "<group>"; };
 		"Mondo::Mondo::Product" /* Mondo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mondo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Mondo::MondoTests::Product" /* MondoTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = MondoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 			children = (
 				OBJ_10 /* ScreenProperties.swift */,
 				50C1B70D268CB12300485202 /* UIScrollViewExtensions.swift */,
+				508C8217268F0E060047FAFB /* FormValidation.swift */,
 				503F70C7268CA7B600E05AE2 /* UIViewControllerExtensions.swift */,
 				503F70D3268CA99900E05AE2 /* UIViewExtensions.swift */,
 				503F70D5268CA9F500E05AE2 /* DateExtensions.swift */,
@@ -241,6 +244,7 @@
 			files = (
 				503F70CA268CA83900E05AE2 /* UIColorExtensions.swift in Sources */,
 				503F70D4268CA99900E05AE2 /* UIViewExtensions.swift in Sources */,
+				508C8218268F0E060047FAFB /* FormValidation.swift in Sources */,
 				503F70C8268CA7B600E05AE2 /* UIViewControllerExtensions.swift in Sources */,
 				50C1B70E268CB12300485202 /* UIScrollViewExtensions.swift in Sources */,
 				503F70D0268CA91900E05AE2 /* ReuseIdentifiableExtensions.swift in Sources */,
